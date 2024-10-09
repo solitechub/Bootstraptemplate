@@ -1,9 +1,56 @@
 $(document).ready(function(){
+/*
+ $(window).scroll(function(){
+  
+    //sticky navbar on scroll script
+    if(this.scrollY > 20){
+        $('.navbar').addClass("sticky");
+    }else{
+        $('.navbar').removeClass("stickky");
+    }
+ 
+    //scroll-up button show/hide script
+    if(this.scrollY > 500){
+        $('.scroll-up-btn').addClass("show");
+    }else{
+        $('.scroll-up-btn').removeClass("show");
+    }
+ });
 
+// Slide-up script
+$('show-up-btn').click(function(){
+    $('html').animate({scrollTop: 0});
+    
+    //remove smooth scroll on slide-up button click
+    $('html').css("scrollBehavior", "auto");
+});
 
+$('.navbar .menu li a').click(function(){
+    //applying again smooth scrill on menu items click
+    $('html').css("scrollBehavior", "smooth");
+});
 
+//toggle menu/navbar script
+ $('menu-btn').click(function(){
+ $('.navbar .menu').toggleClass("active");
+ $('.menu-btn 1').toggleClass("active");
+ });
 
+//typing text animation script
+var typed = new Typed(".typing-1", {
+    string: ["Webdeveloper", "Digital marketing", "Training", "Freelance"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+});
 
+var typed= new Typed(".typing-2", {
+    string: ["Webdeveloper", "Digital marketing", "Training", "Freelance"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+}); 
+*/
    //owl carsousel script
    $('.carousel').owlCarousel({
     margin: 20,
